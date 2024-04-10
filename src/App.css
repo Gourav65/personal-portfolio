@@ -1,0 +1,38 @@
+/* Navbar css */
+.color1{
+    background-size: 100% 100%;
+    background-position: 0px 0px,0px 0px,0px 0px;
+    background-image: linear-gradient(146deg, #100817 1%, #FF000000 99%),linear-gradient(116deg, #261C35 1%, #FF000000 99%),linear-gradient(294deg, #5A5979 0%, #13204FFF 100%);
+}
+/* responsive css in navbar  */
+.navbar-sm{
+    top: 70px;
+    /* inset: 0 0 70% 0; */
+    transition: ease-in-out 6s;
+    transition-property: top animation;
+    animation: pos 2s ;
+
+}
+@keyframes pos {
+    from{
+        top: -150px;
+    }
+    to{
+        top: 70px;
+    }
+}
+.navbar-sm-close{
+    top: 100px;
+    transition: ease-in-out 6s;
+    transition-property: animation;
+    animation: pos1 2s ;
+}
+@keyframes pos1 {
+    from{
+        top: 0;
+    }
+    to{
+        top: -150px;
+    }
+}
+/* Navbar css ends here */
